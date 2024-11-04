@@ -39,6 +39,10 @@ In this app I'm using NBP's API to fetch current exchange rates. Exchange rates 
   GET /orders
 ```
 
+| Query Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `status`      | `string` | **Optional**. Status to filter |
+
 #### Get single order (with converted amount)
 
 ```http
